@@ -1,8 +1,5 @@
 
-<p align="center">
-<img src="mini-curso-logo.png">
-</p>
-
+<img src="logo.png" align="left">
 
 # Sumário
 
