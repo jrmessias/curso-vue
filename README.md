@@ -1,5 +1,5 @@
 
-<img src="logo.png" align="left">
+<img src="logo.png" style="float:right">
 
 # Sumário
 
