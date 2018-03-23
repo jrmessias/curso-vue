@@ -1,3 +1,9 @@
+
+<p align="center">
+<img src="mini-curso-logo.png">
+</p>
+
+
 # Sumário
 
 <!-- TOC -->
