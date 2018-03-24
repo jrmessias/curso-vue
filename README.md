@@ -24,7 +24,24 @@ O desenvolvimento de sistemas vem passando ao longo dos últimos anos uma mudan�
 A comunicação entre *frontend* e *backend* é realizada através de [RESTfull](https://pt.wikipedia.org/wiki/REST). Basicamente, o *frontend* acessa o *backend* via ajax, e o *backend* responde com algum dado no formato Json.
 
 
-# O que é Vue?
+# O que é Vue.js?
+
+O Vue (a mesma pronúncia de *view* no inglês, isto é, *víu*) é um framework javascript que "cuida" de toda a parte do desenvolvimento *frontend*. Através dele será possível criar todas as telas de um sistema, contendo formulários, campos, tabelas, abas, etc. Além disso, existem diversas bibliotecas para o Vue que maximizam as suas funcionalidades. O Vue é um concorrente direto de outros dois frameworks, Angular e React. Estes 3 frameworks hoje em dia estão entre os prediletos para o desenvolvimento *frontend*.
+
+O Vue exige um pouco de conhecimento em HTML, JavaScript e CSS, que são as três bases do desenvolvimento web, mas não é obrigatório que você seja um expert para poder continuar o curso. Será um "passeio no parque" se você já conhece bem Javascript e está familiarizado com ES2016. 
+
+Se você começar a estudar o Vue pela documentação oficial (que aliás é ótima, e em português), verá coisas do tipo:
+
+```js
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
+```
+
+Nosso curso aborda o Vue de uma forma diferente da documentação oficial, de forma a prepará-lo para o "mundo real", usando o que há de melhor no framework. Isso significa que, quando começarmos a aprender Vue, estaremos usando um *template* pronto com vários arquivos prontos, tudo funcionando de forma sincronizada para que se possa obter o máximo de proveito do Vue. Para chegarmos nesse ponto, precisamos primeiro preparar o nosso ambiente de desenvolvimento.
 
 # Preparando o ambiente
 
