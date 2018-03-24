@@ -30,7 +30,7 @@ O Vue (a mesma pronúncia de *view* no inglês, isto é, *víu*) é um framework
 
 O Vue exige um pouco de conhecimento em HTML, JavaScript e CSS, que são as três bases do desenvolvimento web, mas não é obrigatório que você seja um expert para poder continuar o curso. Será um "passeio no parque" se você já conhece bem Javascript e está familiarizado com ES2016. 
 
-Se você começar a estudar o Vue pela documentação oficial (que aliás é ótima, e em português), verá coisas do tipo:
+Se você começar a estudar o Vue pela [documentação oficial](https://br.vuejs.org/v2/guide/index.html) (que aliás é ótima, e em português), verá coisas do tipo:
 
 ```js
 var app = new Vue({
@@ -45,4 +45,32 @@ Nosso curso aborda o Vue de uma forma diferente da documentação oficial, de fo
 
 # Preparando o ambiente
 
+O Vue precisa de muito pouco para que possamos iniciar o seu estudo:
+
+- **Git** Imprescindível no desenvolvimento de hoje, o Git é usado para manter o controle de versão dos arquivos. Ele nao é um requisito para que o Vue funcione, mas é uma ótima ideia ter o Git instalado e poder versionar os seus arquivos de projeto.
+
+- **Node** Acesse [https://nodejs.org/en/](https://nodejs.org/en/) e instale o Node versão 8 ou superior. Para ambientes Linux baseado no Debian, pode-se fazer `sudo apt-get install nodejs`, mas tenha certeza que está na versão 8! 
+
+- **Visual Studio Code** Esta é definitivamente a melhor IDE para o desenvolvimento Vue. O "VSCode" vem se destacando no mercado no desenvolvimento html/javascript/css e, com a devida configuração, é perfeitamente compatível com o Vue.
+
+## Conhecendo o Node e o Npm
+
+Após instalar o Node em seu ambiente, podemos executá-lo através da linha de comando. Basta digitar `node` e entrar no modo interativo. Mas para nós desenvolvedores, o Node possui uma ferramenta muito útil chamada `npx`, que é uma espécie de "executador" de pacotes do node. Um pacote do node é um programa que executa as mais variadas funcionalidades. Para se ter um exemplo, após o node instalado digite o seguinte comando:
+
+```bash
+$ npx cowsay Vuuuuuuue
+```
+
+O Npx vai executar o programa `cowsay` que é um pacote do Node, e exibir o seu resultado:
+
+```
+__________
+< Vuuuuuue >
+ ----------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
 
