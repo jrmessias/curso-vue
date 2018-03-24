@@ -8,8 +8,9 @@
 - [Sumário](#sumário)
 - [Sobre este curso](#sobre-este-curso)
     - [Porque existe a separação entre frontend e backend?](#porque-existe-a-separação-entre-frontend-e-backend)
-- [O que é Vue?](#o-que-é-vue)
+- [O que é Vue.js?](#o-que-é-vuejs)
 - [Preparando o ambiente](#preparando-o-ambiente)
+    - [Conhecendo o Node e o Npx](#conhecendo-o-node-e-o-npx)
 
 <!-- /TOC -->
 
@@ -49,11 +50,11 @@ O Vue precisa de muito pouco para que possamos iniciar o seu estudo:
 
 - **Git** Imprescindível no desenvolvimento de hoje, o Git é usado para manter o controle de versão dos arquivos. Ele nao é um requisito para que o Vue funcione, mas é uma ótima ideia ter o Git instalado e poder versionar os seus arquivos de projeto.
 
-- **Node** Acesse [https://nodejs.org/en/](https://nodejs.org/en/) e instale o Node versão 8 ou superior. Para ambientes Linux baseado no Debian, pode-se fazer `sudo apt-get install nodejs`, mas tenha certeza que está na versão 8! 
+- **Node** Acesse [https://nodejs.org/en/](https://nodejs.org/en/) e instale o Node versão 8 ou superior. Para ambientes Linux baseado no Debian, pode-se fazer `sudo apt-get install nodejs`, mas tenha certeza que está na versão 8!
 
 - **Visual Studio Code** Esta é definitivamente a melhor IDE para o desenvolvimento Vue. O "VSCode" vem se destacando no mercado no desenvolvimento html/javascript/css e, com a devida configuração, é perfeitamente compatível com o Vue.
 
-## Conhecendo o Node e o Npm
+## Conhecendo o Node e o Npx
 
 Após instalar o Node em seu ambiente, podemos executá-lo através da linha de comando. Basta digitar `node` e entrar no modo interativo. Mas para nós desenvolvedores, o Node possui uma ferramenta muito útil chamada `npx`, que é uma espécie de "executador" de pacotes do node. Um pacote do node é um programa que executa as mais variadas funcionalidades. Para se ter um exemplo, após o node instalado digite o seguinte comando:
 
