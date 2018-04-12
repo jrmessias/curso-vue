@@ -1,8 +1,9 @@
 
 <img src="logo.png" style="float:right">
 
-# Sumário
 
+# Sumário
+<details>
 <!-- TOC -->
 
 - [Sumário](#sumário)
@@ -13,6 +14,7 @@
     - [Conhecendo o Node e o Npx](#conhecendo-o-node-e-o-npx)
 
 <!-- /TOC -->
+</details>
 
 # Sobre este curso
 
