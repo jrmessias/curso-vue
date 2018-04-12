@@ -11,7 +11,8 @@
     - [Porque existe a separação entre frontend e backend?](#porque-existe-a-separação-entre-frontend-e-backend)
 - [O que é Vue.js?](#o-que-é-vuejs)
 - [Preparando o ambiente](#preparando-o-ambiente)
-    - [Conhecendo o Node e o Npx](#conhecendo-o-node-e-o-npx)
+    - [Conhecendo o Node, npx e npm](#conhecendo-o-node-npx-e-npm)
+    - [Instalando e Configurando o Visual Studio Code](#instalando-e-configurando-o-visual-studio-code)
 
 <!-- /TOC -->
 
@@ -49,13 +50,13 @@ Nosso curso aborda o Vue de uma forma diferente da documentação oficial, de fo
 
 O Vue precisa de muito pouco para que possamos iniciar o seu estudo:
 
-- **Git** Imprescindível no desenvolvimento de hoje, o Git é usado para manter o controle de versão dos arquivos. Ele nao é um requisito para que o Vue funcione, mas é uma ótima ideia ter o Git instalado e poder versionar os seus arquivos de projeto.
+- **Git** Imprescindível no desenvolvimento de hoje, o [Git](https://git-scm.com/) é usado para manter o controle de versão dos arquivos. Ele não é um requisito para que o Vue funcione, mas é uma ótima ideia ter o Git instalado e poder versionar os seus arquivos de projeto.
 
-- **Node** Acesse [https://nodejs.org/en/](https://nodejs.org/en/) e instale o Node versão 8 ou superior. Para ambientes Linux baseado no Debian, pode-se fazer `sudo apt-get install nodejs`, mas tenha certeza que está na versão 8!
+- **Node** Acesse [https://nodejs.org/en/](https://nodejs.org/en/) e instale o Node versão 8 ou superior. Para ambientes Linux baseado no Debian, pode-se fazer `sudo apt-get install nodejs`, mas tenha certeza que está na versão 8! Para saber a versçao do node, execute `node -v` no terminal.
 
-- **Visual Studio Code** Esta é definitivamente a melhor IDE para o desenvolvimento Vue. O "VSCode" vem se destacando no mercado no desenvolvimento html/javascript/css e, com a devida configuração, é perfeitamente compatível com o Vue.
+- **Visual Studio Code** Esta é definitivamente a melhor IDE gratuita para o desenvolvimento Vue. O "VSCode" vem se destacando no mercado no desenvolvimento html/javascript/css e, com a devida configuração, é perfeitamente compatível com o Vue. 
 
-## Conhecendo o Node e o Npx
+## Conhecendo o Node, npx e npm
 
 Após instalar o Node em seu ambiente, podemos executá-lo através da linha de comando. Basta digitar `node` e entrar no modo interativo. Mas para nós desenvolvedores, o Node possui uma ferramenta muito útil chamada `npx`, que é uma espécie de "executador" de pacotes do node. Um pacote do node é um programa que executa as mais variadas funcionalidades. Para se ter um exemplo, após o node instalado digite o seguinte comando:
 
@@ -75,4 +76,34 @@ __________
                 ||----w |
                 ||     ||
 ```
+
+O npx já vem "de fábrica" com a instalação do Node na versão 8 ou superior.
+
+Além do `npx` temos também o `npm`, que é o *Node Package Manager`, usado para instalar bibliotecas adicionais ao projeto. A instalação de uma biblioteca é realizada através do seguinte comando:
+
+```bash
+npm install <nomedabibliioteca> --save
+```
+
+A diretiva `--save` faz com que a biblioteca seja "salva" no projeto em que estamos trabalhando. Essas informações são salvas no arquivo `package.json`, no qual o examinaremos melhor assim que criarmos um projeto Vue. 
+
+## Instalando e Configurando o Visual Studio Code
+
+Instale o [VSCode](https://code.visualstudio.com/) e, após a instalação, navegue até a aba de extensões:
+
+<p align="center">
+<img src="https://i.imgur.com/POtr81y.png">
+</p>
+
+Ao clicar nesta aba, você poderá procurar e instalar centenas de extensões para customizar o seu VSCode. No nosso caso, estaremos instalando as extensões para que o Vue seja reconhecido pela ide. As extensões que você deve instalar são:
+
+- Editorconfig
+- ESLInt
+- vue
+- vetur
+- vue peek
+- vue 2 Snippets  
+
+Após instalar todas estas extensões, reinicie o VSCode. 
+
 
