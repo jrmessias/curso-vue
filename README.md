@@ -13,6 +13,7 @@
 - [Preparando o ambiente](#preparando-o-ambiente)
     - [Conhecendo o Node, npx e npm](#conhecendo-o-node-npx-e-npm)
     - [Instalando e Configurando o Visual Studio Code](#instalando-e-configurando-o-visual-studio-code)
+- [Comentários](#comentários)
 
 <!-- /TOC -->
 
@@ -107,3 +108,17 @@ Ao clicar nesta aba, você poderá procurar e instalar centenas de extensões pa
 Após instalar todas estas extensões, reinicie o VSCode. 
 
 
+# Comentários
+
+O curso ainda está no começo, mas você pode dizer aí em baixo o que gostaria de ver nele!
+
+<div id="disqus_thread"></div>
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://danielschmitz.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
