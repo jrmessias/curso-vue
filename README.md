@@ -110,7 +110,7 @@ Após instalar todas estas extensões, reinicie o VSCode.
 
 # Comentários
 
-O curso ainda está no começo, mas você pode dizer aí em baixo o que gostaria de ver nele! A ideia básica é detalhar toda a construção da aplicação vuewind.now.sh
+O curso ainda está no começo, mas você pode dizer aí em baixo o que gostaria de ver nele! A ideia básica é detalhar toda a construção da aplicação https://vuewind.now.sh/
 
 <div id="disqus_thread"></div>
 <script>
