@@ -182,6 +182,13 @@ $ cd myapp
 $ code .
 ```
 
+Com o VSCode aberto, temos algo parecido com:
+
+<p align="center">
+<img src="https://i.imgur.com/ycCvofh.png">
+</p>
+
+
 
 
 
