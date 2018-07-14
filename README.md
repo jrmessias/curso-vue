@@ -15,8 +15,9 @@
 - [Preparando o ambiente](#preparando-o-ambiente)
     - [Conhecendo o Node, npx e npm](#conhecendo-o-node-npx-e-npm)
     - [Instalando e Configurando o Visual Studio Code](#instalando-e-configurando-o-visual-studio-code)
-    - [Instlalando o Vue através do vue-cli](#instlalando-o-vue-através-do-vue-cli)
+    - [Instlalando o vue-cli](#instlalando-o-vue-cli)
 - [Criando o projeto Vue](#criando-o-projeto-vue)
+- [Conhecendo os arquivos principais do projeto](#conhecendo-os-arquivos-principais-do-projeto)
 - [Comentários](#comentários)
 
 <!-- /TOC -->
@@ -145,7 +146,7 @@ Para melhorar a integração do VScode com o Vue, abra as configurações do VSC
 }
 ```
 
-## Instlalando o Vue através do vue-cli
+## Instlalando o vue-cli
 
 O vue-cli é a melhor forma de criar um projeto base totalmente funcional. Para instalar o vue-cli, faça:
 
@@ -188,7 +189,15 @@ Com o VSCode aberto, temos algo parecido com:
 <img src="https://i.imgur.com/ycCvofh.png">
 </p>
 
+# Conhecendo os arquivos principais do projeto
 
+A seguir vamos comentar alguns arquivos que fazem parte do projeto.
+
+**package.json** Contém as configurações do projeto, como o seu nome, versão, os pacotes node que estão instalados e as rotinas para serem executadas quando você deseja, por exemplo, compilar (build) o seu projeto.
+
+**src/main.js** Podemos considerar este o arquivo inicial do projeto, o que configura o Vue e algumas bibliotecas. Se você abrí-lo no VSCode, verá que ele "carrega" o arquivo `App.vue`.
+
+**src/App.vue** Este é o primeiro componente Vue a ser carregado. Ele pode ser compreendido como 
 
 
 
