@@ -15,6 +15,8 @@
 - [Preparando o ambiente](#preparando-o-ambiente)
     - [Conhecendo o Node, npx e npm](#conhecendo-o-node-npx-e-npm)
     - [Instalando e Configurando o Visual Studio Code](#instalando-e-configurando-o-visual-studio-code)
+    - [Instlalando o Vue através do vue-cli](#instlalando-o-vue-através-do-vue-cli)
+- [Criando o projeto Vue](#criando-o-projeto-vue)
 - [Comentários](#comentários)
 
 <!-- /TOC -->
@@ -89,28 +91,9 @@ O Vue precisa de muito pouco para que possamos iniciar o seu estudo:
 
 ## Conhecendo o Node, npx e npm
 
-Após instalar o Node em seu ambiente, podemos executá-lo através da linha de comando. Basta digitar `node` e entrar no modo interativo. Mas para nós desenvolvedores, o Node possui uma ferramenta muito útil chamada `npx`, que é uma espécie de "executador" de pacotes do node. Um pacote do node é um programa que executa as mais variadas funcionalidades. Para se ter um exemplo, após o node instalado digite o seguinte comando:
+Após instalar o Node em seu ambiente, podemos executá-lo através da linha de comando. Basta digitar `node` e entrar no modo interativo. Mas para nós desenvolvedores, o Node possui uma ferramenta muito útil chamada `npm`, que é o gerenciador de pacotes do node.
 
-```bash
-$ npx cowsay Vuuuuuuue
-```
-
-O Npx vai executar o programa `cowsay` que é um pacote do Node, e exibir o seu resultado:
-
-```
-__________
-< Vuuuuuue >
- ----------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-```
-
-O npx já vem "de fábrica" com a instalação do Node na versão 8 ou superior.
-
-Além do `npx` temos também o `npm`, que é o *Node Package Manager`, usado para instalar bibliotecas adicionais ao projeto. A instalação de uma biblioteca é realizada através do seguinte comando:
+O npm funciona da seguinte forma:
 
 ```bash
 npm install <nomedabibliioteca> --save
@@ -136,6 +119,49 @@ Ao clicar nesta aba, você poderá procurar e instalar centenas de extensões pa
 - vue 2 Snippets  
 
 Após instalar todas estas extensões, reinicie o VSCode. 
+
+## Instlalando o Vue através do vue-cli
+
+O vue-cli é a melhor forma de criar um projeto base totalmente funcional. Para instalar o vue-cli, faça:
+
+```bash
+$ npm install -g @vue/cli
+```
+
+A diretiva `-g` irá configurar o *vue-cli* como global, assim você pode usar o comando em qualquer diretório. 
+
+# Criando o projeto Vue
+
+Com o terminal aberto, pode-se crie o projeto vue da seguinte forma:
+
+```bash
+& vue create myapp
+```
+
+Após digitar este comando, surge a pergunta do tipo de projeto que queremos criar. Vamos escolher "Manually select features" para escolher as bibliotecas mais importantes:
+
+<p align="center">
+<img src="https://i.imgur.com/HumiAOK.png">
+</p>
+
+Das bibliotecas disponíveis, vamos selecionar: Babel, Router e Linter, conforme a figura a seguir:
+
+<p align="center">
+<img src="https://i.imgur.com/cqvhV42.png">
+</p>
+
+Para todas as outras opções, deixe a padrão. O projeto é criado, e já podemos abrí-lo no VSCode da seguinte forma:
+
+```bash
+$ cd myapp
+$ code .
+```
+
+
+
+
+
+
 
 
 # Comentários
