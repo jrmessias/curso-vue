@@ -18,6 +18,8 @@
     - [Instlalando o vue-cli](#instlalando-o-vue-cli)
 - [Criando o projeto Vue](#criando-o-projeto-vue)
 - [Conhecendo os arquivos principais do projeto](#conhecendo-os-arquivos-principais-do-projeto)
+    - [Executando o seu projeto no modo "dev"](#executando-o-seu-projeto-no-modo-dev)
+- [Compreendendo melhor o router](#compreendendo-melhor-o-router)
 - [Comentários](#comentários)
 
 <!-- /TOC -->
@@ -203,10 +205,33 @@ A seguir vamos comentar alguns arquivos que fazem parte do projeto.
 
 **src/views/About.vue** As "views" são componentes que o router carrega e adiciona na aplicação. Você pode pensar na view como uma página, onde cada página é carregada pelo router. 
 
+**src/components/homeworld.vue** Um componente pode ser definido como algo visual que será reaproveitado em diversas partes do seu projeto. Suponha que você crie um componente de upload de arquivos, e deseja usá-lo em 3 lugares diferentes. Então você deve criar este componente no diretório `components`. Neste mini curso não iremos focar muito na criação de componentes, apenas na criação de views.
 
+## Executando o seu projeto no modo "dev"
 
+Para executar o projeto Vue, faça o seguinte comando no terminal:
 
+```bash
+$ npm run serve
+```
 
+O projeto será compilado, e terá como resposta algo como:
+
+<p align="center">
+<img src="https://i.imgur.com/FcqiMjC.png">
+</p>
+
+Acesse http://localhost:8080/#/ para ver o Vue em ação. Você verá algo como:
+
+<p align="center">
+<img src="https://i.imgur.com/GqI2vXr.png">
+</p>
+
+Como teste, abra o arquivo `src/views/Home.vue` e altere a mensagem de boas vindas para "Bem vindo a sua aplicação Vue". Quando salvar o arquivo, verá que a aplicação foi recompilada e a página no navegador atualizada.
+
+# Compreendendo melhor o router
+
+Em breve!
 
 
 # Comentários
