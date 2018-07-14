@@ -197,7 +197,11 @@ A seguir vamos comentar alguns arquivos que fazem parte do projeto.
 
 **src/main.js** Podemos considerar este o arquivo inicial do projeto, o que configura o Vue e algumas bibliotecas. Se você abrí-lo no VSCode, verá que ele "carrega" o arquivo `App.vue`.
 
-**src/App.vue** Este é o primeiro componente Vue a ser carregado. Ele pode ser compreendido como 
+**src/App.vue** Este é o primeiro componente Vue a ser carregado. Ele pode ser compreendido como toda a aplicação Vue na tela, sendo que demais componentes serão carregados "dentro" do App.vue. Veremos mais detalhes sobre isso.
+
+**src/router.js** Define as rotas da aplicação, isto é, quando mudamos a url do navegador qual componente deve ser carregado. Na aplicação recém criada temos a url "/" que carrega o componente `Home`, e a url `/about` que carrega o componente `About`.
+
+**src/views/About.vue** As "views" são componentes que o router carrega e adiciona na aplicação. Você pode pensar na view como uma página, onde cada página é carregada pelo router. 
 
 
 
