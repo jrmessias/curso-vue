@@ -8,8 +8,10 @@
 
 - [Sumário](#sumário)
 - [Sobre este curso](#sobre-este-curso)
+- [E a documentação oficial?](#e-a-documentação-oficial)
 - [Porque existe a separação entre frontend e backend?](#porque-existe-a-separação-entre-frontend-e-backend)
 - [O que é Vue.js?](#o-que-é-vuejs)
+- [E o backend?](#e-o-backend)
 - [Preparando o ambiente](#preparando-o-ambiente)
     - [Conhecendo o Node, npx e npm](#conhecendo-o-node-npx-e-npm)
     - [Instalando e Configurando o Visual Studio Code](#instalando-e-configurando-o-visual-studio-code)
@@ -20,6 +22,23 @@
 # Sobre este curso
 
 Este mini curso tem como objetivo introduzir o Framework Javascript Vue.js para o desenvolvimento de aplicações que chamamos de SPA - *Single Page Applications*, isto é, aplicações de página única. Este conceito é o inverso dos sistemas Web mais comuns onde cada funcionalidade é uma página ou uma requisição que contém uma página completa. No desenvolvimento atual, existe uma separação muito clara entre frontend e backend, e o Vue.js entra no papel de framework frontend.
+
+# E a documentação oficial?
+
+A [documentação oficial](https://br.vuejs.org/v2/guide/) que inclusive está em português pode ser lida antes desse curso. Lá você você verá diversas funcionalidades do Vue, só que funcionando em modo desconexo. Vários exemplos da documentação oficial usam o Vue  através da sua própria instância, como por exemplo:
+
+```js
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Olá Vue!'
+  }
+})
+```
+
+O que pode ser confuso para quem está iniciando, e deseja ver um exemplo real em funcionamento. A minha dica é, use a documentação oficial para resolver pequenas dúvidas ou reler alguns dos conceitos do Vue.
+
+Este mini curso visa suprir essa deficiência da documentação oficial, no qual queremos ver um exemplo real em funcionamento.
 
 # Porque existe a separação entre frontend e backend?
 
@@ -46,6 +65,17 @@ var app = new Vue({
 ```
 
 Nosso curso aborda o Vue de uma forma diferente da documentação oficial, de forma a prepará-lo para o "mundo real", usando o que há de melhor no framework. Isso significa que, quando começarmos a aprender Vue, estaremos usando um *template* pronto com vários arquivos prontos, tudo funcionando de forma sincronizada para que se possa obter o máximo de proveito do Vue. Para chegarmos nesse ponto, precisamos primeiro preparar o nosso ambiente de desenvolvimento.
+
+# E o backend?
+
+Nesse mini curso estaremos usando um backend genérico que eu mesmo criei e está localizado em [http://northwind.now.sh/](http://northwind.now.sh/). Neste back poderemos fazer operações Rest, das quais destacamos:
+
+| Método | URI | Entrada | Saída |
+|--------|-----|---------|-------|
+| GET | /api/categories | void | Array contendo todas as categorias |
+| GET | /api/categories/:id | id | Uma categoria |
+
+<!--TODO continuar os métodos --> 
 
 # Preparando o ambiente
 
