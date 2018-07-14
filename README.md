@@ -120,6 +120,31 @@ Ao clicar nesta aba, você poderá procurar e instalar centenas de extensões pa
 
 Após instalar todas estas extensões, reinicie o VSCode. 
 
+Para melhorar a integração do VScode com o Vue, abra as configurações do VSCode (Arquivo > Preferências > Confgurações ) e adicione a seguinte configuração:
+
+```json
+{
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ]
+}
+```
+
 ## Instlalando o Vue através do vue-cli
 
 O vue-cli é a melhor forma de criar um projeto base totalmente funcional. Para instalar o vue-cli, faça:
