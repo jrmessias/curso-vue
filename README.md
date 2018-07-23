@@ -231,7 +231,15 @@ Como teste, abra o arquivo `src/views/Home.vue` e altere a mensagem de boas vind
 
 # Compreendendo melhor o router
 
-Em breve!
+O principal objetivo do router no Vue é carregar os componentes na tela de acordo com uma rota estabelecida. Para conhecer melhor o router, você precisa saber onde ficam 3 funcionalidades básicas:
+
+- **Onde o router é configurado?** Ele fica especificamente no `src/router.js`. Lá você encontrará duas rotas. A primeira, usa o caminho "/" e aponta para o componente `Home`. Isso é, quando a url for "/", carregue o componente "Home". A segunda rota usa o caminho `/about` e liga ao componente "About". Criar novas rotas é criar mais uma entrada nessa lista, relacionando o caminho e o componente.
+
+- **Onde o componente é carregado?** Os componentes tem que ser carregdos em algum lugar, nao é mesmo? Para isso usamos a tag `<router-view/>`, e ela está especificamente no `App.vue`. Neste componente, você verá o menu e logo abaixo a tag que define o local onde os componentes são carregados
+
+- **Como eu "chamo" uma rota/componente?** A resposta está no próprio arquivo `App.vue`, onde você tem a tag `router-link` com o atributo "to". Ao clicar nesse lik, o router pega o caminho especificado, procura em sua lista de rotas, e carrega o componente no `router-view`.
+
+
 
 
 # Comentários
