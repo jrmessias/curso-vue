@@ -2,7 +2,7 @@ module.exports = {
     base: '/mini-curso-vue/',
     lang:"pt-BR",
     plugins: ['@vuepress/pwa'],
-    title: 'Mini Curso Vue by Daniel Schmitz',
+    title: 'Mini Curso Vue',
     description: 'Aprenda Vuejs, de graça!',
     themeConfig: {
         nav: [
