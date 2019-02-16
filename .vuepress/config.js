@@ -1,7 +1,15 @@
 module.exports = {
     base: '/mini-curso-vue/',
-    lang:"pt-BR",
-    plugins: ['@vuepress/pwa'],
+    lang: 'pt-BR',
+    plugins: [
+        '@vuepress/pwa',
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-134641181-1'
+            }
+        ], 
+    ],
     title: 'Mini Curso Vue',
     description: 'Aprenda Vuejs, de graça!',
     themeConfig: {
@@ -12,7 +20,7 @@ module.exports = {
             { text: 'Github', link: 'https://github.com/danielschmitz/mini-curso-vue' },
         ],
         sidebar:
-            ['c1', 'c2', 'c3', 'c4','c5']
+            ['c1', 'c2', 'c3', 'c4', 'c5']
 
     }
 
