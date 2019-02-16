@@ -12,7 +12,7 @@ module.exports = {
             { text: 'Github', link: 'https://github.com/danielschmitz/mini-curso-vue' },
         ],
         sidebar:
-            ['c1', 'c2', 'c3', 'c4']
+            ['c1', 'c2', 'c3', 'c4','c5']
 
     }
 
