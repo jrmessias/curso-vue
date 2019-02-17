@@ -8,7 +8,7 @@ module.exports = {
             {
                 'ga': 'UA-134641181-1'
             }
-        ], 
+        ],
     ],
     title: 'Mini Curso Vue',
     description: 'Aprenda Vuejs, de graça!',
@@ -20,8 +20,11 @@ module.exports = {
             { text: 'Github', link: 'https://github.com/danielschmitz/mini-curso-vue' },
         ],
         sidebar:
-            ['c1', 'c2', 'c3', 'c4', 'c5','c6']
+            ['c1', 'c2', 'c3', 'c4', 'c5', 'c6']
 
+    },
+    markdown: {
+        lineNumbers: true
     }
 
 }
