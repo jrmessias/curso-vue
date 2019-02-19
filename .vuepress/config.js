@@ -21,11 +21,12 @@ module.exports = {
             { text: 'Github', link: 'https://github.com/danielschmitz/mini-curso-vue' },
         ],
         sidebar:
-            ['c1', 'c2', 'c3', 'c4', 'c5', 'c6']
+            ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'a1']
 
     },
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        includeLevel: [1, 2, 3, 4] 
     }
 
 }
