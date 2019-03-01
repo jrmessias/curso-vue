@@ -17,7 +17,7 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Curso', link: '/c1' },
             { text: 'Autor', link: 'http://www.danielschmitz.com.br' },
-            { text: 'Github', link: 'https://github.com/danielschmitz/mini-curso-vue' },
+            { text: 'Github', link: 'https://github.com/danielschmitz/curso-vue' },
         ],
         sidebar:
             ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'a1']

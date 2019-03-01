@@ -7,15 +7,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielschmitz/mini-curso-vue.git"
+    "url": "git+https://github.com/danielschmitz/curso-vue.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danielschmitz/mini-curso-vue/issues"
+    "url": "https://github.com/danielschmitz/curso-vue/issues"
   },
-  "homepage": "https://github.com/danielschmitz/mini-curso-vue#readme",
+  "homepage": "https://github.com/danielschmitz/curso-vue#readme",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
     "@vuepress/plugin-pwa": "^1.0.0-alpha.0",
