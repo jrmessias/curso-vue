@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "curso-vue",
+  "alias": "curso-vue",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": ".vuepress/dist" }
+    }
+  ]
+}

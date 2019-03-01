@@ -1,5 +1,4 @@
 module.exports = {
-    base: '/mini-curso-vue/',
     lang: 'pt-BR',
     ga: 'UA-134641181-1',
     plugins: [
@@ -11,11 +10,11 @@ module.exports = {
             }
         ],
     ],
-    title: 'Mini Curso Vue',
-    description: 'Aprenda Vuejs, de graça!',
+    title: 'Curso Vue',
+    description: 'Aprenda Vuejs, de graça, mesmo!',
     themeConfig: {
         nav: [
-            { text: 'Home', link: '/home' },
+            { text: 'Home', link: '/' },
             { text: 'Curso', link: '/c1' },
             { text: 'Autor', link: 'http://www.danielschmitz.com.br' },
             { text: 'Github', link: 'https://github.com/danielschmitz/mini-curso-vue' },
