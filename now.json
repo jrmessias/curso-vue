@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "curso-vue",
-  "alias": "curso-vue",
+  "alias": "curso-vue.com.br",
   "builds": [
     {
       "src": "package.json",
